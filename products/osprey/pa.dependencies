@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "chil360/android_device_motorola_osprey",
+        "target_path":  "device/motorola/osprey",
+        "revision":     "aospa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "chil360/android_device_motorola_msm8916-common",
+        "target_path":  "device/motorola/msm8916-common",
+        "revision":     "aospa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "chil360/android_kernel_motorola_msm8916",
+        "target_path":  "kernel/motorola/msm8916",
+        "revision":     "10.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "chil360/proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "10.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-17.0"
+    },
+    {
+        "remote":       "aospa-8916",
+        "repository":   "android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "quartz-8916"
+    },
+    {
+        "remote":       "aospa-8916",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-8916"
+    },
+    {
+        "remote":       "aospa-8916",
+        "repository":   "android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-8916"
+    },
+    {
+        "remote":       "github",
+        "repository":   "chil360/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3",
+        "target_path":  "prebuilts/gcc/linux-x86/arm/arm-eabi-8.3",
+        "revision":     "master"
+    }
+]
