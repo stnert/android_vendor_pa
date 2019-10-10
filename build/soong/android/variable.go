@@ -14,9 +14,11 @@ type Product_variables struct {
 	}
 	Target_uses_color_metadata struct {
 		Cppflags []string
-    }
+	}
 	Has_legacy_camera_hal1 struct {
 		Cflags []string
+		Overrides []string
+		Shared_libs []string
 	}
 }
 
