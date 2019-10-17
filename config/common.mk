@@ -60,6 +60,10 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
+# system mount
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/bin/system-mount.sh:install/bin/system-mount.sh
+
 # Power whitelist
 PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/pa-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pa-power-whitelist.xml
